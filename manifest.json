@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.1.2",
+  "version": "2.0",
 
   "default_locale": "en",
   "name": "__MSG_extensionName__",
@@ -9,8 +9,11 @@
 
   "browser_specific_settings": {
     "gecko": {
-        "id": "{22b0eca1-8c02-4c0d-a5d7-6604ddd9836e}",
-        "strict_min_version": "89.0"
+        "id": "{b84e5f09-a015-4ab9-83b9-a4c92b65fb2b}",
+        "strict_min_version": "140.0",
+        "data_collection_permissions": {
+        "required": ["none"]
+      }
       }
   },
 
@@ -22,8 +25,8 @@
       "additional_backgrounds_tiling": ["repeat-x"]
     },
     "colors": {
-      "button_background_active": "#333333",
-      "button_background_hover": "#282828",
+      "button_background_active": "rgba(255, 255, 255, 0.15)",
+      "button_background_hover": "rgba(255, 255, 255, 0.1)",
       "bookmark_text": "rgba(255, 255, 255, 0.8)",
       "frame": "#000000",
       "frame_inactive": "#000000",
@@ -47,18 +50,17 @@
       "tab_selected": "rgba(200, 200, 200, 0.1)",
       "tab_text": "#ffffff",
       "tab_line": "rgba(255, 255, 255, 0.05)",
-      "toolbar": "rgba(18, 18, 18, 0.8)",
-      "toolbar_bottom_separator": "#101010",
-      "toolbar_field": "#000000",
-      "toolbar_field_border": "transparent",
-      "toolbar_field_border_focus": "#303030",
-      "toolbar_field_focus": "#111111",
-      "toolbar_field_highlight": "#333333",
+      "toolbar": "transparent",
+      "toolbar_bottom_separator": "transparent",
+      "toolbar_field": "rgba(0, 0, 0, 1)",
+      "toolbar_field_border": "rgba(255, 255, 255, 0.12)",
+      "toolbar_field_border_focus": "rgba(255, 255, 255, 0.3)",
+      "toolbar_field_focus": "rgba(17, 17, 17, 1)",
+      "toolbar_field_highlight": "rgba(37, 99, 235, 0.7)",
       "toolbar_field_highlight_text": "white",
-      "toolbar_field_separator": "#101010",
-      "toolbar_field_text": "rgba(255, 255, 255, 0.8)",
+      "toolbar_field_text": "rgba(255, 255, 255, 0.85)",
       "toolbar_field_text_focus": "white",
-      "toolbar_top_separator": "rgba(18, 18, 18, 0.0)",
+      "toolbar_top_separator": "transparent",
       "toolbar_vertical_separator": "rgba(255, 255, 255, 0.06)"
     }
   }
