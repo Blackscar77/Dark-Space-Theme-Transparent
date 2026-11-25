@@ -1,4 +1,4 @@
-# Dark Space tramsparent
+# Dark Space transparent
 
 Animated stars with transparent background for Firefox.
 
