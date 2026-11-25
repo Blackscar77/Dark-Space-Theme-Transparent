@@ -1,6 +1,6 @@
-# Dark space - The best dynamic theme
+# Dark Space tramsparent
 
-<https://addons.mozilla.org/addon/nicothin-space/> — Most popular and Highest rated Firefox Theme 🎉
+Animated stars with transparent background for Firefox.
 
 ![preview](https://addons.mozilla.org/user-media/version-previews/full/3827/3827732.svg)
 
